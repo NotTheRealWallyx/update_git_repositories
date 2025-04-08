@@ -2,25 +2,29 @@
 
 This repository helps you having all the repositories updated with git. It search all the folder that have `.git` folder and updates the repository. The folder that are being checked are the ones on the user folder. Repositories outside the user one will not be updated. Works on Linux and MacOs systems, need to try it on Windows.
 
+## Important Notice
+
+Support for this repository has ended. For a better and more advanced tool, please check out [GitBlend](https://github.com/NotTheRealWallyx/GitBlend).
+
 ## How to install
 
 Follow this two steps to install the command:
 
 Clone the repository
-``` bash
+
+```bash
 git clone https://github.com/sWallyx/update_git_repositories.git
 ```
 
-Run the install script*
-``` bash
+Run the install script\*
+
+```bash
 ./install.sh
 ```
 
-Done! You will have the command available** on the terminal.
+Done! You will have the command available on the terminal.
 
-_* On some cases you may need to make it executable first `chmod +x install.sh`_
-
-_** You might need to restart the terminal_
+\* On some cases you may need to make it executable first `chmod +x install.sh`
 
 ## Usage
 
