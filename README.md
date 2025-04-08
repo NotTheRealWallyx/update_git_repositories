@@ -28,11 +28,6 @@ After making the installation write on the terminal `git-update` and you will se
 
 Have fun coding.
 
-## TODO's
-
-* [ ] Restart after update, see issue [#4](https://github.com/sWallyx/update_git_repositories/issues/4)
-* [ ] Remove repository if check [#10](https://github.com/sWallyx/update_git_repositories/issues/10)
-
 ## Licence
 
 [MIT](LICENSE) - License
