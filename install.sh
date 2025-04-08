@@ -2,9 +2,6 @@
 # Installation script for the command
 
 install_mac_os(){
-
-    # Check for brew
-    
     if ! brew -v &> /dev/null
     then
         printf ">> Installing Homebrew\n"
@@ -58,4 +55,15 @@ printf ">> Installing requirements\n"
 install_requirements
 
 printf ">> Installation completed!\n\n"
+
+if [ -f ~/.bashrc ]; then
+    printf ">> Reloading bash configuration\n"
+    source ~/.bashrc
+fi
+
+if [ -f ~/.zshrc ]; then
+    printf ">> Reloading zsh configuration\n"
+    source ~/.zshrc
+fi
+
 printf "You can use the command by typing git-update in the terminal\n"
